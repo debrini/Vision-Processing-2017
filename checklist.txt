@@ -1,0 +1,7 @@
+have_done:
+	identify rectangles
+	find rectangle length and width in pixels
+have_to_do:
+	find ratio - l:w
+	figure out how to change the ratio to 2:5
+		move robot accordingly
