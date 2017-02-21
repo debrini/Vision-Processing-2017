@@ -157,6 +157,8 @@ elif dict_list[0].get('dimHorz') >= dict_list[1].get('dimHorz'):
 		
 		
 		#pixel per metric
+		
+
 ideal_size = 15000
 
 if dict_list[0].get('area') < ideal_size:
@@ -166,7 +168,6 @@ if dict_list[0].get('area') < ideal_size:
 		vp.go_forward_and_right()
 elif dict_list[0].get('area') = ideal_size:
 	vp.execute_gear_drop_off()
-
 
 
 #dict_list[0].get('dimVert')
