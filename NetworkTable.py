@@ -12,14 +12,14 @@ import time
 from networktables import NetworkTable
 
 # declare it
-NetworkTable table
+#NetworkTable table
 
 # Init NetworkTable
 NetworkTable.setClientMode()
 NetworkTable.setTeam(245)
 NetworkTable.setIPAddress("10.2.45.23") # ip of roborio
 NetworkTable.initialize()
-table = NetworkTable.getTable("PiTable") # what table data is put in
+table = NetworkTable.getTable("VisionTable") # what table data is put in
 
 # in the processing
 table.putString('go_forward_and_left', go_forward_and_left())
