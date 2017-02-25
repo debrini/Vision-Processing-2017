@@ -19,11 +19,8 @@ NetworkTable.setClientMode()
 NetworkTable.setTeam(245)
 NetworkTable.setIPAddress("10.2.45.23") # ip of roborio
 NetworkTable.initialize()
-table = NetworkTable.getTable("VisionTable") # what table data is put in
+table = NetworkTable.getTable("visionTable") # what table data is put in
 
 # in the processing
-table.putString('go_forward_and_left', go_forward_and_left())
-table.putString('go_forward_and_right', go_forward_and_right())
-table.putString('execute_gear_drop_off', execute_gear_drop_off())
-table.putString('reverse', reverse())
-table.putString('stop', stop())
+visionTable.putNumber('area', area)
+visionTable.putNumber('dist_between', dist_between)
